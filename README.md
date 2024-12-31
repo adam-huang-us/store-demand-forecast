@@ -21,48 +21,55 @@ The `test.csv` contains the test data that we need to predict.
 
 **Sales Trend over Month**
 
-![image](https://github.com/Sol2023/store-demand-forecast/assets/92194263/f6bab092-a889-4ef0-84a2-ca3532a1a320)
+![image](https://github.com/user-attachments/assets/dcc552d3-a635-4cab-839c-248039aefa3b)
+
 
 - From the plot, we can see the sales trend is always growing over the 5 years and grows fastest during 2013 to 2014
 
-![image](https://github.com/Sol2023/store-demand-forecast/assets/92194263/ae1ea08f-7506-4c72-8f21-d1db64cf0a07)
+![image](https://github.com/user-attachments/assets/c34cabfe-fed2-4562-baae-dc8ece05870e)
+
 
 - From the plot, we can see the sales is always highest of the year at July, which may caused by summer vacation. In addition, during November, there is a small peak caused by Thanks' Giving Day.
 - The time-series has seasonality pattern, such as sales are always low at the beginning of the year and high at the middle(festive season maybe) of the year and again low at the end of the year. 
 
 **Growth Rate**
 
-![image](https://github.com/Sol2023/store-demand-forecast/assets/92194263/9b243608-464a-4907-bdb8-83e8929ba0ce)
+![image](https://github.com/user-attachments/assets/254d00f8-bb50-472c-a2e7-d1b094686d7f)
 
-![image](https://github.com/Sol2023/store-demand-forecast/assets/92194263/edc55ac9-b46d-4af5-9944-697534f0ff34)
+
+![image](https://github.com/user-attachments/assets/7eee3587-1aa2-4e1b-b1b1-999d7a3b935a)
+
 
 
 **Sales Trend by Store**
 
-![image](https://github.com/Sol2023/store-demand-forecast/assets/92194263/57ad0fd1-7e44-413c-91bf-7a3bfd68bf75)
+![image](https://github.com/user-attachments/assets/f4f68d22-d521-419f-b77e-02067eaaea95)
 
-![image](https://github.com/Sol2023/store-demand-forecast/assets/92194263/b0c98941-ebe3-4a8a-bc52-72316a714a19)
+![image](https://github.com/user-attachments/assets/70b7c610-8d90-4ddb-b3b9-4a75f0a23ecf)
+
 
 
 ## Model
 
 **1. Determining Stationarity**
 
-![image](https://github.com/Sol2023/store-demand-forecast/assets/92194263/74035e52-6396-4921-bd69-ec74fc18958f)
+![image](https://github.com/user-attachments/assets/285b1616-5bc2-46ad-aa5b-02e9f7500951)
 
 - The plot clearly shows that the sales is unstable, along with its obvious seasonality.
 
-![image](https://github.com/Sol2023/store-demand-forecast/assets/92194263/0d940b27-d73b-4bfe-b2b0-f08dd2b43a6d)
+![image](https://github.com/user-attachments/assets/38d230bf-c22d-4913-bee4-65ccf5fe1d3b)
 
 **2. Model**
 
 2.1 Linear Regression
 
-![image](https://github.com/Sol2023/store-demand-forecast/assets/92194263/e897724b-1968-4c8b-854e-5814d36b422d)
+![image](https://github.com/user-attachments/assets/ed659a01-3727-4ac1-b85a-08d710851f14)
+
 
 2.2 LSTM
 
-![image](https://github.com/Sol2023/store-demand-forecast/assets/92194263/ba21c156-3c73-469c-a707-8b9fd506e178)
+![image](https://github.com/user-attachments/assets/711f27d1-a29c-4ed4-8e61-0f701f952bad)
+
 
 2.3 ARIMA Model
 
@@ -72,8 +79,10 @@ The `test.csv` contains the test data that we need to predict.
 - I: Integrated (d): These are the number of nonseasonal differences.
 - MA: Moving Averages (q): MA terms are lagged forecast errors in prediction equation.
 
-![image](https://github.com/Sol2023/store-demand-forecast/assets/92194263/17a78f13-16d7-4e01-8ce5-f0a8d5237468)
+![image](https://github.com/user-attachments/assets/dbaa7081-6696-4e6f-9e5a-425224858ae0)
+
 
 **3. Model Compare**
 
-![image](https://github.com/Sol2023/store-demand-forecast/assets/92194263/2f4b82a5-66f2-43fc-92c0-b2110ab93000)
+![image](https://github.com/user-attachments/assets/a53b4469-590d-45ee-96eb-dbeed6fe676b)
+
