@@ -35,7 +35,8 @@ The `test.csv` contains the test data that we need to predict.
 
 **Growth Rate**
 
-![image](https://github.com/user-attachments/assets/254d00f8-bb50-472c-a2e7-d1b094686d7f)
+![image](https://github.com/user-attachments/assets/38b8a371-a991-4c37-8fbb-6aa598ae558c)
+
 
 
 ![image](https://github.com/user-attachments/assets/7eee3587-1aa2-4e1b-b1b1-999d7a3b935a)
