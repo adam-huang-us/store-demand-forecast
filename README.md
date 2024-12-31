@@ -57,22 +57,28 @@ The `test.csv` contains the test data that we need to predict.
 
 **1. Determining Stationarity**
 
-![image](https://github.com/user-attachments/assets/285b1616-5bc2-46ad-aa5b-02e9f7500951)
+![image](https://github.com/user-attachments/assets/191fd8f6-5580-4221-b1fe-df674175ef22)
+
 
 - The plot clearly shows that the sales is unstable, along with its obvious seasonality.
 
-![image](https://github.com/user-attachments/assets/38d230bf-c22d-4913-bee4-65ccf5fe1d3b)
+![image](https://github.com/user-attachments/assets/d2cb961a-8048-4eb7-ab54-610b3c3e2181)
+
 
 **2. Model**
 
 2.1 Linear Regression
 
-![image](https://github.com/user-attachments/assets/ed659a01-3727-4ac1-b85a-08d710851f14)
+![image](https://github.com/user-attachments/assets/65fac1ea-9a55-4b21-bc8f-13c123cf5539)
+
 
 
 2.2 LSTM
 
-![image](https://github.com/user-attachments/assets/711f27d1-a29c-4ed4-8e61-0f701f952bad)
+
+![image](https://github.com/user-attachments/assets/bff1e9c7-77e7-41cc-adf9-ef037142f785)
+
+
 
 
 2.3 ARIMA Model
@@ -83,10 +89,11 @@ The `test.csv` contains the test data that we need to predict.
 - I: Integrated (d): These are the number of nonseasonal differences.
 - MA: Moving Averages (q): MA terms are lagged forecast errors in prediction equation.
 
-![image](https://github.com/user-attachments/assets/dbaa7081-6696-4e6f-9e5a-425224858ae0)
+![image](https://github.com/user-attachments/assets/482faf4e-ad00-432c-840b-2728cc6e4c5c)
 
 
 **3. Model Compare**
 
-![image](https://github.com/user-attachments/assets/a53b4469-590d-45ee-96eb-dbeed6fe676b)
+![image](https://github.com/user-attachments/assets/2fb1420b-f2ed-409a-a1b7-4dd56085f57a)
+
 
