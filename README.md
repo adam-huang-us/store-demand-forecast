@@ -21,7 +21,8 @@ The `test.csv` contains the test data that we need to predict.
 
 **Sales Trend over Month**
 
-![image](https://github.com/user-attachments/assets/dcc552d3-a635-4cab-839c-248039aefa3b)
+![image](https://github.com/user-attachments/assets/c577a97d-9cad-4efa-b93f-3396a905984e)
+
 
 
 - From the plot, we can see the sales trend is always growing over the 5 years and grows fastest during 2013 to 2014
