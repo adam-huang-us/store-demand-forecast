@@ -45,9 +45,11 @@ The `test.csv` contains the test data that we need to predict.
 
 **Sales Trend by Store**
 
-![image](https://github.com/user-attachments/assets/f4f68d22-d521-419f-b77e-02067eaaea95)
+![image](https://github.com/user-attachments/assets/b37f9c44-44be-4a2c-a365-8150db110bd8)
 
-![image](https://github.com/user-attachments/assets/70b7c610-8d90-4ddb-b3b9-4a75f0a23ecf)
+
+![image](https://github.com/user-attachments/assets/e0e12054-04f1-48e5-b501-7b230d39f541)
+
 
 
 
